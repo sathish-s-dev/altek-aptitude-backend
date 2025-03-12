@@ -1,0 +1,13 @@
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\AptitudeApplication.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\config\MongoConfig.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\controllers\AuthController.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\controllers\DataController.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\controllers\StudentController.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\dto\LoginDto.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\dto\ResponseDto.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\entity\Results.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\entity\Student.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\repositories\ResultsRepository.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\repositories\StudentRepository.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\services\DataService.java
+D:\ALTEK\Altek Web App\aptitude\src\main\java\com\altek\services\StudentService.java

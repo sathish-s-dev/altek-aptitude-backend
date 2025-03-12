@@ -1,0 +1,13 @@
+com\altek\AptitudeApplication.class
+com\altek\services\StudentService.class
+com\altek\repositories\StudentRepository.class
+com\altek\repositories\ResultsRepository.class
+com\altek\dto\LoginDto.class
+com\altek\controllers\AuthController.class
+com\altek\dto\ResponseDto.class
+com\altek\controllers\DataController.class
+com\altek\controllers\StudentController.class
+com\altek\services\DataService.class
+com\altek\entity\Results.class
+com\altek\config\MongoConfig.class
+com\altek\entity\Student.class
