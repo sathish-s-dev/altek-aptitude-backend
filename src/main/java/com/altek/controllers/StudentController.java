@@ -24,8 +24,12 @@ public class StudentController {
         return studentService.getAllStudents();
     }
 
-    @PostMapping("/student")
+    @PostMapping("/student/all")
     public List<Student> saveAllStudent(@RequestBody List<Student> student) {
         return studentService.saveAllStudent(student);
+    }
+    @PostMapping("/student")
+    public Student saveStudent(@RequestBody Student student) {
+        return studentService.saveStudent(student);
     }
 }

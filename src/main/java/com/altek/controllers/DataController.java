@@ -20,8 +20,8 @@ public class DataController {
     private DataService dataService;
 
     @PostMapping("/submit-answers")
-    public Results submitAnswers(@RequestBody Results results) {
-        Results savedResults = dataService.saveResults(results);
+    public String submitAnswers(@RequestBody Results results) {
+        String savedResults = dataService.saveResults(results);
         return savedResults;
     }
 

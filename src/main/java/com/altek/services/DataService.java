@@ -22,9 +22,16 @@ public class DataService {
         return resultsRepository.findAll();
     }
 
-    public Results saveResults(@RequestBody Results results) {
-        Results savedResults = resultsRepository.save(results);
-        return savedResults;
+    public String saveResults(@RequestBody Results results) {
+
+        Results existingResults = resultsRepository.findByEmail(results.getEmail()).orElse(null);
+        if (existingResults != null) {
+            return "result already exists";
+        }
+
+        resultsRepository.save(results);
+
+        return "result saved successfully";
     }
 
 }

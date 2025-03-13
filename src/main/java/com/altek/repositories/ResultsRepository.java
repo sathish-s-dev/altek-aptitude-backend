@@ -1,7 +1,6 @@
 package com.altek.repositories;
 
 import com.altek.entity.Results;
-import com.altek.entity.Student;
 
 import java.util.Optional;
 
@@ -15,5 +14,6 @@ public interface ResultsRepository extends MongoRepository<Results, Long> {
     // For example:
     // List<Student> findByName(String name);
 
-    Optional<Student> findByEmail(String email);
+    Optional<Results> findByEmail(String email);
+
 }
